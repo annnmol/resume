@@ -13,144 +13,166 @@
 
 % --------- Contact Information -----------
 \introduction[
-    fullname={Sparky sundevil8},
-    email={sdevil123@asu.edu},
-    phone={123-456-7890},
-    linkedin={linkedin.com/in/sparkysundevil},
-    github={github.com/sparkysundevil}
+    fullname={Vignesh V Iyer},
+    email={vgnshiyer@asu.edu},
+    phone={480-919-4651},
+    linkedin={linkedin.com/in/vgnshiyer},
+    github={github.com/vgnshiyer}
 ]
 
 % --------- Summary -----------
-\summary{Senior mechanical engineering student with internship experience in medical device manufacturing and product development. Project experience includes applications of software and hardware. Seeking full-time position May 2020 in medical device manufacturing, pharmaceutical production, and other FDA-regulated industries. }
+% \summary{Senior mechanical engineering student with internship experience in medical device manufacturing and product development. Project experience includes applications of software and hardware. Seeking full-time position May 2020 in medical device manufacturing, pharmaceutical production, and other FDA-regulated industries. }
 
 % --------- Education ---------
 \begin{educationSection}{Education}
     \educationItem[
         university={Arizona State University, Tempe, AZ},
-        college={Barrett, The Honors College},
-        graduation={May 2020},
-        grade={3.82 GPA},
-        program={B.S.E., Mechanical Engineering},
-        coursework={Hardware Design Languages and Programmable Logic, Advanced Excel in Business},
+        graduation={Dec 2024},
+        grade={4.0 GPA},
+        program={Master of Computer Software Engineering},
+    ]
+    \educationItem[
+        university={University of Mumbai, Mumbai, MH},
+        graduation={Oct 2020},
+        grade={8.67 CGPA},
+        program={Bachelor of Information Technology},
     ]
 \end{educationSection}
 
 % --------- Skills -----------
+\vspace{-15pt}
 \begin{skillsSection}{Technical Skills}
     \skillItem[
-        category={Data Analysis and Statistics},
-        skills={JMP, Minitab}
-    ] \\
-    \skillItem[
-        category={Design and Modeling Tools},
-        skills={SOLIDWORKS, LabVIEW, MATLAB, Microsoft Office}
-    ] \\
-    \skillItem[
         category={Programming},
-        skills={Python, C, C++}
+        skills={Python, C, C++, Rust, Java, Javascript, SQL, Shell}
+    ] \\
+    \skillItem[
+        category={Technologies and Frameworks},
+        skills={Django, Spring Boot, NodeJs, ReactJs, GraphQL, AWS, Docker, Kubernetes, Git}
+    ] \\
+    \skillItem[
+        category={Other},
+        skills={Agile(Scrum and Kanban), SDLC, Open Source, CICD, Backend, Full-Stack, DevOps, Unit Testing, OOP}
     ] \\
     \skillItem[
         category={Certifications},
-        skills={National Instruments Certified LabVIEW Associate Developer (CLAD) – August 2019}
+        skills={AWS Certified Developer, AWS Certified Solutions Architect, Certified Terraform Associate}
     ]
 \end{skillsSection}
 
 % --------- Experience -----------
 \begin{experienceSection}{Professional Experience}
     \experienceItem[
-        company={Stryker Solutions},
-        location={Phoenix, AZ},
-        position={Research \& Dev Development Intern},
-        duration={May 2019 – Aug 2019}
+        company={Technology at Arizona State University},
+        location={Tempe, AZ},
+        position={AI Full Stack ENgineer (Part-time)},
+        duration={Dec 2023 - present}
     ]
     \begin{itemize}
         \itemsep -6pt {}
-        \item Applied measurement system analysis (MSA) to qualify relocated test equipment (JMP, Python)
-        \item Authored three technical reports for relocated packaging equipment, following IQOQPQ guides (JMP, Excel)
+        \item Spearheaded the development of a Unified Python Library for simplified access to 15 diverse LLM models from providers including OpenAI, Anthropic and Google, leveraging services like Lambda, DynamoDB and API GW.
+        \item Developed a robust chat platform enabling seamless querying on documents for professors, students and staff, by integrating with Milvus cluster on Kubernetes, using OpenAI text embeddings for information retrieval.
+        \item Achieved a 15\% reduction in query response time by optimizing database schema using good indexing strategies.
+        \item Implemented CICD pipelines for integration \& unit tests, infrastructure management via terraform, on Jenkins.
     \end{itemize}
 
     \experienceItem[
-        company={Med Apps},
-        location={Scottsdale, AZ},
-        position={Quality Engineering Intern},
-        duration={May 2018 – Aug 2018}
+        company={Technology at Arizona State University},
+        location={Tempe, AZ},
+        position={Software Developer (Part-time)},
+        duration={Mar 2023 - Dec 2023}
     ]
     \begin{itemize}
         \itemsep -6pt {}
-        \item Assessed equivalency of proposed alternate plastic packaging material (Minitab, Excel)
-        \item Created and delivered presentations to train field sales representatives on new product features (PowerPoint)
+        \item Improved the data transfer capacity to 5x by redesigning the User deprovisioning API in Java to process over 50,000 records asynchronously, previously at max 10,000 per execution.
+        \item Revamped the ContactUpload API by creating a universal Constituent Matcher to establish a consistent process across various objects, resulting in enhanced code management and reduced technical debt.
+        \item Designed and implemented a student case clone workflow using Lightning framework, Javascript and Jest.
+    \end{itemize}
+
+    \experienceItem[
+        company={Tata Consultancy Services},
+        location={Mumbai, MH},
+        position={System Engineer},
+        duration={Aug 2020 - Dec 2022}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item Reclaimed over 20 hours a week of maintenance effort by pioneering the use of Kubernetes Operator to automate Kafka cluster management, freeing up engineers from routine tasks.
+        \item Empowered a diverse portfolio of over 10 clients by leading the implementation of AWS DMS with Cloudwatch, Terraform and Jenkins to orchestrate data streaming to cloud.
+        \item Facilitated the migration of over 100 million transactions per minute by developing a custom Java Application to securely migrate data from on-premise databases to Kafka on AWS cloud.
+        \item Saved an estimated 50 hours of developer time a month by implementing multiple automation workflows to optimize team processes using AWS lambda, Step functions, AWS Batch, Jenkins and Ansible.
+        \item Curated over 5 technical articles on Confluent on a wide range of topics on software engineering and DevOps.
     \end{itemize}
 
 \end{experienceSection}
 
 % --------- Projects -----------
-\begin{experienceSection}{Academic projects}
+\begin{experienceSection}{Personal projects}
     \projectItem[
-        title={Hand Cycle for Polio Victims},
-        duration={Fall 2019 – Spring 2020},
-        keyHighlight=Collaborated in a team of three to design model of custom hand cycle for polio victims (SOLIDWORKS).
+        title={Delivery Tracking System},
+        keyHighlight=implemented a highly scalable microservice architecture consisting of 5 services.
     ]
     \begin{itemize}
         \vspace{-0.5em}
         \itemsep -6pt {}
-        \item Developed team schedule, including quality measurement for each major milestone (Microsoft Project)
-        \item Ensured team compliance to Design Control Procedures according to Code of Federal Regulations (CFR)
-        \item Recognized by faculty audience as “Best Presentation” out of 15 teams
+        \item Leveraged Django and Docker to develop REST / gRPC services for efficient data transfer of vehicle coordinates.
+        \item Orchestrated deployment of RabbitMQ on AWS EKS for asynchronous inter-service communication.
+        \item Coded Frontend using ReactJs, Tailwind, using Server-Side Events (SSE) to show live delivery status on the UI.
+        \item Streamlined infrastructure management with Terraform and Jenkins, to achieve deployments under 5 minutes.
     \end{itemize}
 
     \projectItem[
-        title=Sensor for Quadriplegic Patients,
-        duration=Spring 2019,
-        keyHighlight=Led team of three to design and develop a mouse-like device to allow quadriplegic patients to use websites.
+        title=Py-Apple-Books,
+        keyHighlight=Published a python package in PyPi enabling users to interact with Apple Books data programmatically.
     ]
     \begin{itemize}
         \vspace{-0.5em}
         \itemsep -6pt {}
-        \item Assessed range-of-motion data to determine feasible solutions (Python)
-        \item Created device to detect muscle flexion in neck to control the mouse click (Arduino, FPGA)
+        \item Engineered functionalities for querying books, annotations, collections and exporting them into markdown files.
+        \item Optimized data retrieval by crafting SQL join queries, facilitating efficient extraction of Apple Books data.
     \end{itemize}
 \end{experienceSection}
 
 % --------- Other work experience -----------
-\begin{experienceSection}{Other work experience}
-    \experienceItem[
-        company={Arizona State University},
-        location={Tempe, AZ},
-        position={Tutor (10 hours/week)},
-        duration={Aug 2018 – May 2019}
-    ]
-    \begin{itemize}
-        \vspace{-0.2em}
-        \itemsep -6pt {}
-        \item Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
-    \end{itemize}
+% \begin{experienceSection}{Other work experience}
+%     \experienceItem[
+%         company={Arizona State University},
+%         location={Tempe, AZ},
+%         position={Tutor (10 hours/week)},
+%         duration={Aug 2018 – May 2019}
+%     ]
+%     \begin{itemize}
+%         \vspace{-0.2em}
+%         \itemsep -6pt {}
+%         \item Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
+%     \end{itemize}
 
-    \experienceItem[
-        company={Kohl's},
-        location={Gilbert, AZ},
-        position={Sales Associate, Jewelry Department (16-24 hours/week)},
-        duration={Aug 2017 – Dec 2017}
-    ]
-    \begin{itemize}
-        \vspace{-0.2em}
-        \itemsep -6pt {}
-        \item Achieved \#2 highest selling associate within one month of hire date
-    \end{itemize}
-\end{experienceSection}
+%     \experienceItem[
+%         company={Kohl's},
+%         location={Gilbert, AZ},
+%         position={Sales Associate, Jewelry Department (16-24 hours/week)},
+%         duration={Aug 2017 – Dec 2017}
+%     ]
+%     \begin{itemize}
+%         \vspace{-0.2em}
+%         \itemsep -6pt {}
+%         \item Achieved \#2 highest selling associate within one month of hire date
+%     \end{itemize}
+% \end{experienceSection}
 
 % --------- Activities -----------
-\begin{experienceSection}{Activities}
-    \projectItem[
-        title={ASU Society of Women Engineers (SWE)},
-        keyHighlight={Multiple leadership roles, including vice-president and industry relations chair (300 members{,} \$75k annual budget)},
-        duration={Aug 2017 – Present}
-    ]
-    \begin{itemize}
-        \vspace{-0.5em}
-        \itemsep -6pt {}
-        \item Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
-        \item Organized 2018 annual conference participation, including 8 student poster submissions
-    \end{itemize}
-\end{experienceSection}
+% \begin{experienceSection}{Activities}
+%     \projectItem[
+%         title={ASU Society of Women Engineers (SWE)},
+%         keyHighlight={Multiple leadership roles, including vice-president and industry relations chair (300 members{,} \$75k annual budget)},
+%         duration={Aug 2017 – Present}
+%     ]
+%     \begin{itemize}
+%         \vspace{-0.5em}
+%         \itemsep -6pt {}
+%         \item Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
+%         \item Organized 2018 annual conference participation, including 8 student poster submissions
+%     \end{itemize}
+% \end{experienceSection}
 
 \end{document}

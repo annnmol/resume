@@ -78,7 +78,7 @@
         {%
             \expandafter\ifstrequal\expandafter{phone}{}{}% Contact number
             {%
-                \ifcommandkey{phone}{\phonelink{\commandkey{phone}}}{}
+                \ifcommandkey{phone}{\phonelink{\commandkey{phone}}}{}%
                 \expandafter\ifstrequal\expandafter{email}{}%
                 {%
                     \expandafter\ifstrequal\expandafter{linkedin}{}%
@@ -151,10 +151,10 @@
         \commandkey{grade}%
     }{} \\ % line end
     {% line 3
-        \commandkey{college}
-    } \\ % line end
+        % \commandkey{college}
+    } % line end
     {% line 4
-        Relevant coursework: \commandkey{coursework}%
+        % Relevant coursework: \commandkey{coursework}%
     }% line end
 }%
 
@@ -170,8 +170,7 @@
     skills
 ]{%
     {%
-        \bf \commandkey{category}:
-    } {%
+        \bf \commandkey{category}: }{%
         \commandkey{skills}%
     }
 }%
