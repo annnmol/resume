@@ -1,6 +1,4 @@
 # Reference: https://github.com/thehale/expressive-resume/blob/main/.devcontainer/README.md
-version: "3.2"
-
 services:
   vscode:
     build: .
