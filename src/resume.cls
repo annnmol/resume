@@ -143,7 +143,7 @@
     {% line 1
         \bf \commandkey{program}%
     } \hfill {%
-        Graduating \commandkey{graduation}%
+        \commandkey{graduation}%
     } \\ % line end
     {% line 2
         \commandkey{university}%
