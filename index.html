@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html>
-<body style="margin:0">
-  <iframe
-    src="https://drive.google.com/file/d/1q5gqGDd-IF2a66Ex_-CYoObJmjqI20Gz/preview"
-    width="100%"
-    height="1000px"
-    style="border:none">
-  </iframe>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol_Tanwar_MERN_5YOE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        iframe {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 1;
+        }
+
+        .download-btn {
+            position: fixed;
+            top: 60px;
+            right: 20px;
+            z-index: 10;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #1a73e8;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .download-btn:hover {
+            background: #1765c1;
+            transform: translateY(-1px);
+        }
+
+        .download-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+
+<body>
+    <a class="download-btn" href="https://drive.google.com/uc?export=download&id=1q5gqGDd-IF2a66Ex_-CYoObJmjqI20Gz"
+        title="Download PDF" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+    </a>
+    <iframe src="https://drive.google.com/file/d/1q5gqGDd-IF2a66Ex_-CYoObJmjqI20Gz/preview" width="100%" height="1000px"
+        style="border:none">
+    </iframe>
 </body>
+
 </html>
